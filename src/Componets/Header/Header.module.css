@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  header{
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .container{
+    padding: 15px;
+    display: flex;
+  
+    justify-content: center;
+    width: 100%;
+  }
+.countainerHeader {
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  header .countainerHeader .logoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .countainerHeader ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  header .countainerHeader a {
+    text-decoration: none;
+  }
+  header .countainerHeader .contactTop {
+    padding: 40px;
+    background-color: #FFB606;
+    color: white;
+    display: flex;  
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
